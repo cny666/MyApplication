@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_alignParentLeft="true"
+        android:text="Red"
+        android:textSize="25px"
+        android:background="@color/red"
+        />
+    <Button
+        android:layout_width="200px"
+        android:layout_height="100px"
+        android:layout_alignParentRight="true"
+        android:text="yellow"
+        android:textSize="50px"
+        android:background="@color/yellow"
+        />
+
+    <Button
+        android:layout_width="150px"
+        android:layout_height="100px"
+        android:text="orange"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:textSize="30px"
+        android:background="@color/orange"
+        />
+
+
+    <Button
+        android:id="@+id/blue"
+        android:layout_width="150px"
+        android:layout_height="100px"
+        android:layout_centerInParent="true"
+        android:textSize="30px"
+        android:text="blue"
+        android:background="@color/blue"
+        />
+
+    <Button
+        android:layout_width="150px"
+        android:layout_height="100px"
+        android:layout_toLeftOf="@id/blue"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="30px"
+        android:textSize="30px"
+        android:text="green"
+        android:background="@color/green"
+        />
+
+    <Button
+        android:layout_width="150px"
+        android:layout_height="100px"
+        android:layout_toRightOf="@id/blue"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30px"
+        android:textSize="30px"
+        android:text="green"
+        android:background="@color/purple"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_alignParentBottom="true"
+        android:textSize="30px"
+        android:text="pink"
+        android:background="@color/pink"
+        />
+</RelativeLayout>
