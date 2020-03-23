@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">实验2</string>
+    <string name="red">RED</string>
+    <string name="yellow">YELLOW</string>
+    <string name="orange">ORANGE</string>
+    <string name="violet">VIOLET</string>
+    <string name="blue">BLUE</string>
+    <string name="green">GREEN</string>
+    <string name="indigo">INDIGO</string>
 </resources>
